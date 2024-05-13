@@ -1,3 +1,5 @@
+import demo from './demo.js';
+
 const map = function(keyArray,valueFunction){
     
     var valueArray =[];
@@ -11,6 +13,8 @@ const map = function(keyArray,valueFunction){
     
     return valueArray;
 }
+
+demo();
 
 var array = [1,2,3,4];
 
